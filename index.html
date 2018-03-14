@@ -2,9 +2,29 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title></title>
+    <title>Grades</title>
+    <link href="style.css" rel="stylesheet">
   </head>
   <body>
-
+    <div id="mainWindow">
+      <h1>Grade Calculator</h1>
+      <form class="" action="index.html" method="post">
+        <table id="tableOne">
+          <tr>
+            <td>Input grade (number)</td>
+            <td>
+              <input id="numberOne" type="number" min="0" max="100"></input>
+            </td>
+            <td><button type="button" onClick="calculateGrade();">Submit</button></td>
+          </tr>
+          <tr>
+            <td>Result:</td>
+            <td id="finalGrade"></td>
+            <td></td>
+          </tr>
+        </table>
+      </form>
+    </div>
+<script src="script.js"></script>
   </body>
 </html>

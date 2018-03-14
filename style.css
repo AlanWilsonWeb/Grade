@@ -1,0 +1,21 @@
+#mainWindow {
+  background-color: blue;
+  color: white;
+  border-radius: 50px;
+  text-align: center;
+  width: auto;
+  margin: auto;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+#tableOne {
+  margin: auto;
+  text-align: center;
+}
+
+#finalGrade {
+  font-weight: bold;
+}
